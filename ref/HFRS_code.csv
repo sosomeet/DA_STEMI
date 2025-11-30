@@ -1,0 +1,110 @@
+icd_code,description,number_with_code_devt,percent_devt,number_with_code_frail,percent_frail,points
+F00,Dementia in Alzheimer's disease,664,3,564,11.5,7.1
+G81,Hemiplegia,332,1.5,240,4.9,4.4
+G30,Alzheimer's disease,1107,5,751,15.3,4
+I69,Sequelae of cerebrovascular disease (secondary codes),509,2.3,343,7,3.7
+R29,Other symptoms and signs involving the nervous and musculoskeletal systems (R29.6 Tendency to fall),4140,18.7,2429,49.5,3.6
+N39,Other disorders of urinary system (includes urinary tract infection and urinary incontinence),3852,17.4,2233,45.5,3.2
+F05,"Delirium, not induced by alcohol and other psychoactive substances",1328,6,923,18.8,3.2
+W19,Unspecified fall,2568,11.6,1462,29.8,3.2
+S00,Superficial injury of head,886,4,569,11.6,3.2
+R31,Unspecified haematuria,708,3.2,309,6.3,3
+B96,Other bacterial agents as the cause of diseases classified to other chapters (secondary code),1395,6.3,918,18.7,2.9
+R41,Other symptoms and signs involving cognitive functions and awareness,2037,9.2,1222,24.9,2.7
+R26,Abnormalities of gait and mobility,1882,8.5,1114,22.7,2.6
+I67,Other cerebrovascular diseases,1838,8.3,1050,21.4,2.6
+R56,"Convulsions, not elsewhere classified",332,1.5,206,4.2,2.6
+R40,"Somnolence, stupor and coma",266,1.2,177,3.6,2.5
+T83,"Complications of genitourinary prosthetic devices, implants and grafts",244,1.1,147,3,2.4
+S06,Intracranial injury,221,1,128,2.6,2.4
+S42,Fracture of shoulder and upper arm,266,1.2,142,2.9,2.3
+E87,"Other disorders of fluid, electrolyte and acid-base balance",2546,11.5,1251,25.5,2.3
+M25,"Other joint disorders, not elsewhere classified",1262,5.7,648,13.2,2.3
+E86,Volume depletion,1550,7,893,18.2,2.3
+R54,Senility,332,1.5,211,4.3,2.2
+Z50,Care involving use of rehabilitation procedures,354,1.6,196,4,2.1
+F03,Unspecified dementia,2701,12.2,1433,29.2,2.1
+W18,Other fall on same level,642,2.9,363,7.4,2.1
+Z75,Problems related to medical facilities and other health care,642,2.9,437,8.9,2
+F01,Vascular dementia,863,3.9,491,10,2
+S80,Superficial injury of lower leg,244,1.1,152,3.1,2
+L03,Cellulitis,863,3.9,422,8.6,2
+H54,Blindness and low vision,642,2.9,314,6.4,1.9
+E53,Deficiency of other B group vitamins,244,1.1,123,2.5,1.9
+Z60,Problems related to social environment,487,2.2,240,4.9,1.8
+G20,Parkinson's disease,487,2.2,240,4.9,1.8
+R55,Syncope and collapse,1439,6.5,633,12.9,1.8
+S22,"Fracture of rib(s), sternum and thoracic spine",221,1,113,2.3,1.8
+K59,Other functional intestinal disorders,2590,11.7,1305,26.6,1.8
+N17,Acute renal failure,3454,15.6,1713,34.9,1.8
+L89,Decubitus ulcer,775,3.5,461,9.4,1.7
+Z22,Carrier of infectious disease,221,1,132,2.7,1.7
+B95,Streptococcus and staphylococcus as the cause of diseases classified to other chapters,332,1.5,182,3.7,1.7
+L97,"Ulcer of lower limb, not elsewhere classified",797,3.6,407,8.3,1.6
+R44,Other symptoms and signs involving general sensations and perceptions,221,1,128,2.6,1.6
+K26,Duodenal ulcer,244,1.1,98,2,1.6
+I95,Hypotension,1727,7.8,844,17.2,1.6
+N19,Unspecified renal failure,221,1,93,1.9,1.6
+A41,Other septicaemia,952,4.3,515,10.5,1.6
+Z87,Personal history of other diseases and conditions,2790,12.6,1197,24.4,1.5
+J96,"Respiratory failure, not elsewhere classified",886,4,353,7.2,1.5
+X59,Exposure to unspecified factor,354,1.6,196,4,1.5
+M19,Other arthrosis,2635,11.9,1040,21.2,1.5
+G40,Epilepsy,443,2,211,4.3,1.5
+M81,Osteoporosis without pathological fracture,1660,7.5,682,13.9,1.4
+S72,Fracture of femur,1107,5,530,10.8,1.4
+S32,Fracture of lumbar spine and pelvis,266,1.2,128,2.6,1.4
+E16,Other disorders of pancreatic internal secretion,421,1.9,211,4.3,1.4
+R94,Abnormal results of function studies,531,2.4,236,4.8,1.4
+N18,Chronic renal failure,3564,16.1,1354,27.6,1.4
+R33,Retention of urine,1705,7.7,824,16.8,1.3
+R69,Unknown and unspecified causes of morbidity,177,0.8,103,2.1,1.3
+N28,"Other disorders of kidney and ureter, not elsewhere classified",399,1.8,172,3.5,1.3
+R32,Unspecified urinary incontinence,841,3.8,461,9.4,1.2
+G31,"Other degenerative diseases of nervous system, not elsewhere classified",686,3.1,417,8.5,1.2
+Y95,Nosocomial condition,753,3.4,447,9.1,1.2
+S09,Other and unspecified injuries of head,288,1.3,157,3.2,1.2
+R45,Symptoms and signs involving emotional state,443,2,260,5.3,1.2
+G45,Transient cerebral ischaemic attacks and related syndromes,244,1.1,88,1.8,1.2
+Z74,Problems related to care-provider dependency,332,1.5,201,4.1,1.1
+M79,"Other soft tissue disorders, not elsewhere classified",930,4.2,402,8.2,1.1
+W06,Fall involving bed,310,1.4,186,3.8,1.1
+S01,Open wound of head,753,3.4,407,8.3,1.1
+A04,Other bacterial intestinal infections,221,1,108,2.2,1.1
+A09,Diarrhoea and gastroenteritis of presumed infectious origin,1417,6.4,618,12.6,1.1
+J18,"Pneumonia, organism unspecified",3830,17.3,1644,33.5,1.1
+J69,Pneumonitis due to solids and liquids,487,2.2,250,5.1,1
+R47,"Speech disturbances, not elsewhere classified",421,1.9,236,4.8,1
+E55,Vitamin D deficiency,310,1.4,157,3.2,1
+Z93,Artificial opening status,443,2,162,3.3,1
+R02,"Gangrene, not elsewhere classified",155,0.7,83,1.7,1
+R63,Symptoms and signs concerning food and fluid intake,1328,6,564,11.5,0.9
+H91,Other hearing loss,1151,5.2,466,9.5,0.9
+W10,Fall on and from stairs and steps,266,1.2,103,2.1,0.9
+W01,"Fall on same level from slipping, tripping and stumbling",686,3.1,270,5.5,0.9
+E05,Thyrotoxicosis [hyperthyroidism],199,0.9,74,1.5,0.9
+M41,Scoliosis,288,1.3,123,2.5,0.9
+R13,Dysphagia,731,3.3,324,6.6,0.8
+Z99,Dependence on enabling machines and devices,399,1.8,167,3.4,0.8
+U80,Agent resistant to penicillin and related antibiotics,288,1.3,177,3.6,0.8
+M80,Osteoporosis with pathological fracture,177,0.8,83,1.7,0.8
+K92,Other diseases of digestive system,1018,4.6,388,7.9,0.8
+I63,Cerebral Infarction,863,3.9,324,6.6,0.8
+N20,Calculus of kidney and ureter,133,0.6,54,1.1,0.7
+F10,Mental and behavioural disorders due to use of alcohol,221,1,93,1.9,0.7
+Y84,Other medical procedures as the cause of abnormal reaction of the patient,332,1.5,147,3,0.7
+R00,Abnormalities of heart beat,1284,5.8,481,9.8,0.7
+J22,Unspecified acute lower respiratory infection,2059,9.3,878,17.9,0.7
+Z73,Problems related to life-management difficulty,421,1.9,250,5.1,0.6
+R79,Other abnormal findings of blood chemistry,819,3.7,324,6.6,0.6
+Z91,"Personal history of risk-factors, not elsewhere classified",443,2,182,3.7,0.5
+S51,Open wound of forearm,177,0.8,103,2.1,0.5
+F32,Depressive episode,1395,6.3,613,12.5,0.5
+M48,Spinal stenosis (secondary code only),487,2.2,177,3.6,0.5
+E83,Disorders of mineral metabolism,288,1.3,132,2.7,0.4
+M15,Polyarthrosis,288,1.3,113,2.3,0.4
+D64,Other anaemias,2125,9.6,829,16.9,0.4
+L08,Other local infections of skin and subcutaneous tissue,155,0.7,83,1.7,0.4
+R11,Nausea and vomiting,1196,5.4,451,9.2,0.3
+K52,Other noninfective gastroenteritis and colitis,244,1.1,93,1.9,0.3
+R50,Fever of unknown origin,354,1.6,147,3,0.1
