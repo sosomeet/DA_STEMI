@@ -1,0 +1,44 @@
+data cci; set all;
+
+/*Myocardial infarction -> 1점*/
+IF msick_cd2='I21' OR msick_cd2='I22' OR msick_cd2='I252' or 
+ssick_cd2='I21' OR ssick_cd2='I22' OR ssick_cd2='I252' then AMI=1; else ami=0;
+
+/*.......................*/
+
+
+/* metastatic solid tumor -> 6점*/
+IF msick_cd2='C77' OR msick_cd2='C78' OR msick_cd2='C79' OR msick_cd2='C80' OR 
+
+ssick_cd2='C77' OR ssick_cd2='C78' OR ssick_cd2='C79' OR ssick_cd2='C80' 
+then META=1; else meta=0;
+
+/* moderate or severe liver disease -> 3점*/
+IF msick_cd2='I850' OR msick_cd2='I859' OR msick_cd2='I864' OR msick_cd2='I982' OR 
+msick_cd2='K704' OR msick_cd2='K711' OR msick_cd2='K721' OR msick_cd2='K729' OR 
+msick_cd2='K765' OR msick_cd2='K766' OR msick_cd2='K767' OR
+
+ssick_cd2='I850' OR ssick_cd2='I859' OR ssick_cd2='I864' OR ssick_cd2='I982' OR 
+ssick_cd2='K704' OR ssick_cd2='K711' OR ssick_cd2='K721' OR ssick_cd2='K729' OR 
+ssick_cd2='K765' OR ssick_cd2='K766' OR ssick_cd2='K767'
+then SE_LIVER=1; else se_liver=0;
+
+/*AIDS -> 6점*/
+IF msick_cd2='B20' OR msick_cd2='B21' OR msick_cd2='B22' OR msick_cd2='B24' OR
+
+ssick_cd2='B20' OR ssick_cd2='B21' OR ssick_cd2='B22' OR ssick_cd2='B24'
+then AIDS=1; else aids=0; run;
+
+
+
+proc sql ; create table cci2 as select jid, pat_age,
+max(AMI) as sami, max(chf) as schf, max(pvd) as spvd, max(cvd) as scvd, max(demen) as sdemen, max(pul) as spul, max(con) as scon,
+max(pep) as spep, max(liver) as sliver, max(dm) as sdm, max(dm_com) as sdm_com, max(renal) as srenal, max(hemi) as shemi, 
+max(cancer) as scancer, max(meta) as smeta, max(se_liver) as sse_liver, max(aids) as saids from cci group by jid ;run;
+
+data cci3; set cci2;
+if age<41 then agescore=0; if 40<age=<50 then agescore=1; if 50<age=<60 then agescore=2; if 60<age=<70 then agescore=3;
+if age>70 then agescore=4; run;
+
+data cci4; set cci3; 
+cci= SUM(sAMI, schf, spvd, scvd, sdemen, spul, scon, spep, sliver, sdm, sdm_com*2, srenal*2, shemi*2, scancer*2, smeta*6, sse_liver*3, saids*6, agescore) ; run;
